@@ -178,3 +178,6 @@ console.log(numbers);
 names.splice(0,1); // take 2 parameters first one is the index and second one how many index value we want to delete
 console.log(names); 
 
+
+// Javascript array methods
+
