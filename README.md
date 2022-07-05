@@ -22,4 +22,16 @@ An easy way to learn javascript from scratch
     1. When an event occurs (when a user clicks a button)
     2. When it is invoked (called) from JavaScript code
     Automatically (self invoked)
-    3.We will learn a lot more about function invocation later in this tutorial.
+    
+    * We will learn a lot more about function invocation later in this tutorial.
+
+# Local Variables
+    1. Variables declared within a JavaScript function, become LOCAL to the function.
+
+    2. Local variables can only be accessed from within the function.
+
+    3. Since local variables are only recognized inside their functions, variables with the same name can be used in different functions.
+
+    4. Local variables are created when a function starts, and deleted when the function is completed.
+
+# Global Variables
