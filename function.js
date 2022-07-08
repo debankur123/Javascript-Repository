@@ -19,7 +19,8 @@ console.log(result);
 console.log(answer);
 
 // function to calculate 'area'
-function calculateArea(height, width=15) { 
+function calculateArea(height, width) { 
+    height = height === undefined ? 1 : height; // using a turnary operator
     let area = height*width;
     return area;
 }
@@ -32,4 +33,39 @@ function downlaod(){
     console.log(fileName);
 }
 downlaod();
+//------------------------------------------------------------------------------------
+
+// Function declaration and explanation
+// In javascript we can use the function by using a variable name
+
+const fun = function(){
+    console.log('Logged In');
+};
+fun();
+
+//------------------------------------------------------------------------------------
+// Callbacks in Javascript
+function formatText(text,Callbacks){
+    return typeof Callbacks === 'function'? Callbacks(text): text.toUpperCase();
+};
+const ans1 = formatText('debankur',function(text){
+    return text.charAt(0).toUpperCase() + text.slice(1);
+});
+console.log(ans1);
+
+// Another example of 'callbacks' is given below:
+function isOdd(number){
+    return (number % 2 != 0)
+}
+function filter(numbers,fn){
+    let result = [];
+    for(let i = 0; i < numbers.length; i++){
+        if(fn(i)==true){ // returns a boolean result
+            result.push(i);
+        }
+    }
+    return result;
+}
+let numbers = [1, 2, 4, 7, 3, 5, 6];
+console.log(filter(numbers,isOdd));
 

@@ -1,10 +1,9 @@
 # Javascript-Repository
-An easy way to learn JavaScript with proper Examples and definition 
-An easy way to learn javascript from scratch
+An easy way to learn JavaScript with proper Examples and definition from scratch
 
+# Javascript Functions
 
-
-# Javascript functions are used for reusability of code and performance
+    Javascript functions are used for reusability of code and performance
     A JavaScript function is a block of code designed to perform a particular task.
     A JavaScript function is executed when "something" invokes it (calls it).
     A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
