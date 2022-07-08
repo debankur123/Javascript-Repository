@@ -69,3 +69,31 @@ function filter(numbers,fn){
 let numbers = [1, 2, 4, 7, 3, 5, 6];
 console.log(filter(numbers,isOdd));
 
+// robin and his pizza :
+
+
+function orderPizza(type,name,callback){
+    console.log('Pizza ordered');
+    console.log('Pizza is for preparation');
+    setTimeout(function(){
+        let msg = `Your ${type} ${name} Pizza is ready! The total bill is $13`;
+        callback(msg);
+        console.log(`On the Pizzahub server ${msg}`);
+    },3000);
+}
+orderPizza('Veg', 'Margarita cheese',function(msg){
+    console.log(msg);
+});
+
+//----------------------------------------------------------------
+// IIFE
+(function setup(){
+    console.log('Setup Complete');
+})();
+
+// Arrow Functions
+let add = (num1,num2)=>{
+    return num1 + num2;
+}
+let addition = add(643,732);
+console.log(addition);
