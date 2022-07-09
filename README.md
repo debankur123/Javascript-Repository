@@ -68,3 +68,6 @@ An easy way to learn JavaScript with proper Examples and definition from scratch
     The whole process is demonstarted with with code in function.js
 # IIFE (Immediately Invoked Function Expression)
     Because our application could include many functions and global variables from different source files, it's important to limit the number of global variables. If we have some initiation code that we don't need to use again, we could use the IIFE pattern. As we will not reuse the code again, using IIFE in this case is better than using a function declaration or a function expression.
+
+# Asynchronous Methods
+    This method runs irrespective of synchronous methods. This method does not hamper the performance of the synchronous methods. However if it is places between synchronous methods at first the synchronous methods will be exceuted after that Asynchronous method will exceuted. 'setTimeout' is an Asynchronous method taht takes two parameter . One is the handler another the time taken to execute the asynchronous method. Detailed example is given in 'async.js' file.     
