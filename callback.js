@@ -23,3 +23,4 @@ function getuserData(){
 function displayUserData(){
     console.log("dispaly user data end..");
 }
+// functions with no return type
