@@ -99,4 +99,3 @@ let addition = add(643,732);
 console.log(addition);
 /* Now if we want to remove the return keyword we just put num1+num2 in one line like this :
         let add = (num1,num2)=> num1 + num2;  */
-        
