@@ -179,5 +179,6 @@ names.splice(0,1); // take 2 parameters first one is the index and second one ho
 console.log(names); 
 
 
-// Javascript array methods
-
+// Javascript string methods
+var myStr = "I am a \"double quoted\" string ";
+console.log(myStr); // This is called escaping string literals. We can use quotes inside of the string.
