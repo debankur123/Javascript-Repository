@@ -23,7 +23,7 @@ fun1();
 fun2();
 
 /*
-    Assignment with areturn value
+    Assignment with a return value
 */
 function nextInLine(arr,item){
     arr.push(item);
